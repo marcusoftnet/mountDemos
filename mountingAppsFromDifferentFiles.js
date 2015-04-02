@@ -2,8 +2,9 @@
 let mount = require('koa-mount');
 let koa = require('koa');
 let app = koa();
-let helloApp = require('./hello.js');
-let worldApp = require('./world.js');
+
+let helloApp = require('./subapps/hello.js');
+let worldApp = require('./subapps/world.js');
 
 app.use(mount('/hello', helloApp));
 app.use(mount('/world', worldApp));
