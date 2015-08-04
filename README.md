@@ -1,1 +1,1 @@
-Trying our koa-mount to see what I can use it for
+Code for my blog post on [Mounting](http://www.marcusoft.net/2015/04/koa-js-and-the-power-of-mouting.html)
